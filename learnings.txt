@@ -1,7 +1,20 @@
 create virtual enviroment =  python -m venv .venv(Any file name) 
 activate = .venv\Scripts\activate
+deactivate venv  cmd= deactivate
+RUN app.py  = streamlit run app.py
 python --version
 venv cmd = pip install streamlit pypdf2 langchain python-dotenv faiss-cpu openai huggingface_hub
+
+
+
+
+
+
+
+
+
+
+
 
 Sure, here's a brief overview of each module/package you mentioned:
 
@@ -50,6 +63,8 @@ for offline embedding = pip install InstructorEmbedding sentence_transformers
 
 create requirement.txt for your virtualenv 
 env cmd = pip freeze > requirements.txt
+
+install requirements txt file process = pip install -r requirements.txt
 
 
 
