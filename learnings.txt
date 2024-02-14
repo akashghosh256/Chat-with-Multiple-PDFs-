@@ -1,0 +1,67 @@
+create virtual enviroment =  python -m venv .venv(Any file name) 
+activate = .venv\Scripts\activate
+python --version
+venv cmd = pip install streamlit pypdf2 langchain python-dotenv faiss-cpu openai huggingface_hub
+
+Sure, here's a brief overview of each module/package you mentioned:
+
+1. **Streamlit**: Streamlit is an open-source Python library that makes it 
+easy to create web applications for machine learning and data science projects. It allows you to build interactive and customizable web 
+interfaces using simple Python scripts. or GUI
+
+2. **PyPDF2**: PyPDF2 is a Python library for working with PDF files. It allows you to read, 
+write, and manipulate PDF documents. You can extract text, merge or split PDF files, add watermarks, and much more.
+
+3. **LangChain**: I 
+couldn't find specific information about a module named "LangChain." It's possible that it's a custom or internal module. If you provide 
+more context or information about this module, I can try to provide an explanation.
+
+4. **python-dotenv**: python-dotenv is a Python module that 
+allows you to manage environment variables in your Python applications using a `.env` file. It simplifies the process of loading environment 
+variables from a file into your Python script.
+
+5. **faiss-cpu**:DATABASE TO STORE CHUNKS Faiss is a library for efficient similarity search and clustering of large 
+datasets. The "faiss-cpu" package provides CPU support for Faiss. It allows you to perform fast and scalable similarity search operations in 
+high-dimensional vector spaces.
+
+6. **OpenAI**: OpenAI is an artificial intelligence research laboratory that develops AI models and tools. The "openai" package likely 
+provides access to OpenAI's APIs or libraries for using their AI models and services.
+
+7. **huggingface_hub**: Hugging Face is a company that 
+develops natural language processing (NLP) models and tools. The "huggingface_hub" package likely provides access to the Hugging Face Model Hub, where 
+you can discover, share, and download pre-trained NLP models and related resources.
+
+These modules/packages offer a wide range of functionalities for various 
+tasks such as web application development, PDF manipulation, environment management, similarity search, AI model access, and NLP tasks. 
+
+
+
+app.py have GUI
+
+RUN app.py  = streamlit run app.py
+
+
+When you run app.py after activating the virtual environment, it will automatically use the modules installed in that virtual environment. 
+You don't need to modify app.py in any way for it to access these modules.
+
+
+for offline embedding = pip install InstructorEmbedding sentence_transformers
+
+
+create requirement.txt for your virtualenv 
+env cmd = pip freeze > requirements.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
