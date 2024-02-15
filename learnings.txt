@@ -66,7 +66,7 @@ env cmd = pip freeze > requirements.txt
 
 install requirements txt file process = pip install -r requirements.txt
 
-
+YT link : https://www.youtube.com/watch?v=dXxQ0LR-3Hg
 
 
 
