@@ -1,4 +1,4 @@
-# Multi-pdf-AI  (with Power of OpenAI)
+# DocuConnect
 
 # Try Now -> https://multipdfai.streamlit.app/
 
