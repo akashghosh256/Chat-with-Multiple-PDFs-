@@ -1,6 +1,7 @@
 # DocuConnect
 
-# Try Now -> https://multipdfai.streamlit.app/
+# Try Now -> https://multipdfai.streamlit.app/ 
+(The website may experience issues due to the free OpenAI key limit.)
 
 
 ## Introduction
